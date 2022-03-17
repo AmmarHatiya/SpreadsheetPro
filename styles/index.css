@@ -1,0 +1,45 @@
+
+@media screen and (min-width: 700px) {
+
+  }
+@media screen and (max-width: 700px) {
+
+  }
+
+/*Spreadsheet Table */
+.Spreadsheet{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.Spreadsheet table{
+    table-layout: fixed;
+    height: 50%;
+    width: 100%;
+    empty-cells: show;
+    border-collapse:collapse;
+}
+.Spreadsheet  tr{
+    height: 40px;
+    width: 100px;
+}
+.Spreadsheet  td{
+    font-size: 110%;    
+    text-align: center;
+    padding: 0;
+    border: thin solid black;
+}
+.Spreadsheet  th{
+    font-size: 110%;    
+    text-align: center;
+    padding: 5px;
+    border: thin solid black;
+    background-color: #d0d0d0;
+}
+.Spreadsheet   td:hover{
+    background-color: #f5dd90;
+}
+
+
+
+
