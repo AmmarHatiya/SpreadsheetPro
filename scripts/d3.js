@@ -154,7 +154,7 @@ window.onload = function () {
         const chartHeight = height - 2 * margin;
 
         const colourScale = d3.scaleLinear()
-            .domain([978, 2188])
+            .domain([0, 1])
             .range(['lightskyblue', 'blue']);
 
         const xScale = d3.scaleBand()
